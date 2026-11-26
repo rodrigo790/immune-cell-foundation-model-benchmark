@@ -45,6 +45,8 @@ def main():
     classes = list(PANELS)
     rows = []
     times = []
+    strata = []
+    condition = obs.sample_type.astype(str).to_numpy()
     conf = np.zeros((len(classes), len(classes)), int)
     pd.DataFrame(
         [(k, v) for k, vs in PANELS.items() for v in vs], columns=["label", "marker"]
@@ -66,6 +68,20 @@ def main():
                 predicted = model.predict(x[test])
                 conf += confusion_matrix(labels[test], predicted, labels=classes)
             times.append([donor, method, time.perf_counter() - start])
+            for group in sorted(set(condition[test])):
+                for label in classes:
+                    keep = (condition[test] == group) & (labels[test] == label)
+                    if keep.any():
+                        strata.append(
+                            [
+                                donor,
+                                method,
+                                group,
+                                label,
+                                int(keep.sum()),
+                                np.mean(predicted[keep] == label),
+                            ]
+                        )
             present = np.unique(labels[test])
             rows.append(
                 [
@@ -85,6 +101,9 @@ def main():
     pd.DataFrame(
         rows, columns=["donor", "method", "cells", "observed_classes", "macro_f1"]
     ).to_csv(OUT / "donor_metrics.csv", index=False)
+    pd.DataFrame(
+        strata, columns=["donor", "method", "condition", "cell_type", "cells", "recall"]
+    ).to_csv(OUT / "condition_recall.csv", index=False)
     pd.DataFrame(times, columns=["donor", "method", "seconds"]).to_csv(
         OUT / "runtime.csv", index=False
     )

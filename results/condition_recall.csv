@@ -1,0 +1,121 @@
+donor,method,condition,cell_type,cells,recall
+HuLN10,marker,sCTRL,B cell,365,0.9123287671232877
+HuLN10,marker,sCTRL,T cell,421,0.7838479809976246
+HuLN10,marker,sCTRL,natural killer cell,2221,0.9828905898244035
+HuLN10,marker,sCTRL,endothelial cell,36,0.7222222222222222
+HuLN10,marker,sCTRL,mast cell,66,0.3939393939393939
+HuLN10,marker,sLMQ,B cell,352,0.9005681818181818
+HuLN10,marker,sLMQ,T cell,533,0.7504690431519699
+HuLN10,marker,sLMQ,natural killer cell,3227,0.9854353889061047
+HuLN10,marker,sLMQ,endothelial cell,31,0.5483870967741935
+HuLN10,marker,sLMQ,mast cell,55,0.18181818181818182
+HuLN10,PCA-logistic,sCTRL,B cell,365,0.8164383561643835
+HuLN10,PCA-logistic,sCTRL,T cell,421,0.8408551068883611
+HuLN10,PCA-logistic,sCTRL,natural killer cell,2221,0.9230076542098155
+HuLN10,PCA-logistic,sCTRL,endothelial cell,36,0.9166666666666666
+HuLN10,PCA-logistic,sCTRL,mast cell,66,0.4090909090909091
+HuLN10,PCA-logistic,sLMQ,B cell,352,0.8664772727272727
+HuLN10,PCA-logistic,sLMQ,T cell,533,0.8048780487804879
+HuLN10,PCA-logistic,sLMQ,natural killer cell,3227,0.924387976448714
+HuLN10,PCA-logistic,sLMQ,endothelial cell,31,0.967741935483871
+HuLN10,PCA-logistic,sLMQ,mast cell,55,0.2
+HuLN3,marker,sCTRL,B cell,187,0.9946524064171123
+HuLN3,marker,sCTRL,T cell,351,0.9515669515669516
+HuLN3,marker,sCTRL,natural killer cell,377,0.9814323607427056
+HuLN3,marker,sCTRL,endothelial cell,44,0.6136363636363636
+HuLN3,marker,sCTRL,mast cell,39,0.7948717948717948
+HuLN3,marker,sLMQ,B cell,445,0.9752808988764045
+HuLN3,marker,sLMQ,T cell,428,0.927570093457944
+HuLN3,marker,sLMQ,natural killer cell,937,0.983991462113127
+HuLN3,marker,sLMQ,endothelial cell,152,0.42105263157894735
+HuLN3,marker,sLMQ,mast cell,84,0.7857142857142857
+HuLN3,PCA-logistic,sCTRL,B cell,187,0.9786096256684492
+HuLN3,PCA-logistic,sCTRL,T cell,351,0.9544159544159544
+HuLN3,PCA-logistic,sCTRL,natural killer cell,377,0.9363395225464191
+HuLN3,PCA-logistic,sCTRL,endothelial cell,44,0.8863636363636364
+HuLN3,PCA-logistic,sCTRL,mast cell,39,0.8205128205128205
+HuLN3,PCA-logistic,sLMQ,B cell,445,0.9685393258426966
+HuLN3,PCA-logistic,sLMQ,T cell,428,0.9299065420560748
+HuLN3,PCA-logistic,sLMQ,natural killer cell,937,0.9573105656350054
+HuLN3,PCA-logistic,sLMQ,endothelial cell,152,0.9473684210526315
+HuLN3,PCA-logistic,sLMQ,mast cell,84,0.7976190476190477
+HuLN4,marker,sCTRL,B cell,406,0.8152709359605911
+HuLN4,marker,sCTRL,T cell,466,0.7424892703862661
+HuLN4,marker,sCTRL,natural killer cell,2444,0.9824058919803601
+HuLN4,marker,sCTRL,endothelial cell,31,0.1935483870967742
+HuLN4,marker,sCTRL,mast cell,69,0.8985507246376812
+HuLN4,marker,sLMQ,B cell,215,0.8697674418604651
+HuLN4,marker,sLMQ,T cell,479,0.6680584551148225
+HuLN4,marker,sLMQ,natural killer cell,3998,0.9907453726863432
+HuLN4,marker,sLMQ,endothelial cell,99,0.10101010101010101
+HuLN4,marker,sLMQ,mast cell,49,0.673469387755102
+HuLN4,PCA-logistic,sCTRL,B cell,406,0.8251231527093597
+HuLN4,PCA-logistic,sCTRL,T cell,466,0.8347639484978541
+HuLN4,PCA-logistic,sCTRL,natural killer cell,2444,0.9476268412438625
+HuLN4,PCA-logistic,sCTRL,endothelial cell,31,0.7741935483870968
+HuLN4,PCA-logistic,sCTRL,mast cell,69,0.9130434782608695
+HuLN4,PCA-logistic,sLMQ,B cell,215,0.9116279069767442
+HuLN4,PCA-logistic,sLMQ,T cell,479,0.7682672233820459
+HuLN4,PCA-logistic,sLMQ,natural killer cell,3998,0.9552276138069035
+HuLN4,PCA-logistic,sLMQ,endothelial cell,99,0.8787878787878788
+HuLN4,PCA-logistic,sLMQ,mast cell,49,0.7959183673469388
+HuLN5,marker,sCTRL,B cell,200,0.955
+HuLN5,marker,sCTRL,T cell,529,0.776937618147448
+HuLN5,marker,sCTRL,natural killer cell,1549,0.9683666881859264
+HuLN5,marker,sCTRL,endothelial cell,7,0.14285714285714285
+HuLN5,marker,sCTRL,mast cell,12,0.9166666666666666
+HuLN5,marker,sLMQ,B cell,262,0.9732824427480916
+HuLN5,marker,sLMQ,T cell,438,0.8515981735159818
+HuLN5,marker,sLMQ,natural killer cell,1493,0.9778968519758875
+HuLN5,marker,sLMQ,endothelial cell,55,0.10909090909090909
+HuLN5,marker,sLMQ,mast cell,20,0.9
+HuLN5,PCA-logistic,sCTRL,B cell,200,0.92
+HuLN5,PCA-logistic,sCTRL,T cell,529,0.8544423440453687
+HuLN5,PCA-logistic,sCTRL,natural killer cell,1549,0.8702388637830859
+HuLN5,PCA-logistic,sCTRL,endothelial cell,7,1.0
+HuLN5,PCA-logistic,sCTRL,mast cell,12,0.9166666666666666
+HuLN5,PCA-logistic,sLMQ,B cell,262,0.9465648854961832
+HuLN5,PCA-logistic,sLMQ,T cell,438,0.910958904109589
+HuLN5,PCA-logistic,sLMQ,natural killer cell,1493,0.8774279973208305
+HuLN5,PCA-logistic,sLMQ,endothelial cell,55,0.9272727272727272
+HuLN5,PCA-logistic,sLMQ,mast cell,20,0.9
+HuLN6,marker,sCTRL,B cell,194,0.9329896907216495
+HuLN6,marker,sCTRL,T cell,476,0.8109243697478992
+HuLN6,marker,sCTRL,natural killer cell,1760,0.99375
+HuLN6,marker,sCTRL,endothelial cell,20,0.2
+HuLN6,marker,sCTRL,mast cell,39,0.3076923076923077
+HuLN6,marker,sLMQ,B cell,222,0.9099099099099099
+HuLN6,marker,sLMQ,T cell,412,0.8616504854368932
+HuLN6,marker,sLMQ,natural killer cell,2219,0.9914375844975214
+HuLN6,marker,sLMQ,endothelial cell,39,0.23076923076923078
+HuLN6,marker,sLMQ,mast cell,29,0.3793103448275862
+HuLN6,PCA-logistic,sCTRL,B cell,194,0.9123711340206185
+HuLN6,PCA-logistic,sCTRL,T cell,476,0.842436974789916
+HuLN6,PCA-logistic,sCTRL,natural killer cell,1760,0.9710227272727273
+HuLN6,PCA-logistic,sCTRL,endothelial cell,20,0.75
+HuLN6,PCA-logistic,sCTRL,mast cell,39,0.3333333333333333
+HuLN6,PCA-logistic,sLMQ,B cell,222,0.8513513513513513
+HuLN6,PCA-logistic,sLMQ,T cell,412,0.8907766990291263
+HuLN6,PCA-logistic,sLMQ,natural killer cell,2219,0.9657503379900856
+HuLN6,PCA-logistic,sLMQ,endothelial cell,39,0.9230769230769231
+HuLN6,PCA-logistic,sLMQ,mast cell,29,0.41379310344827586
+HuLN7,marker,sCTRL,B cell,846,0.9054373522458629
+HuLN7,marker,sCTRL,T cell,510,0.8137254901960784
+HuLN7,marker,sCTRL,natural killer cell,2602,0.9631053036126057
+HuLN7,marker,sCTRL,endothelial cell,65,0.7230769230769231
+HuLN7,marker,sCTRL,mast cell,88,0.8181818181818182
+HuLN7,marker,sLMQ,B cell,649,0.9198767334360555
+HuLN7,marker,sLMQ,T cell,462,0.7857142857142857
+HuLN7,marker,sLMQ,natural killer cell,2223,0.9653621232568601
+HuLN7,marker,sLMQ,endothelial cell,64,0.40625
+HuLN7,marker,sLMQ,mast cell,13,0.5384615384615384
+HuLN7,PCA-logistic,sCTRL,B cell,846,0.8132387706855791
+HuLN7,PCA-logistic,sCTRL,T cell,510,0.8686274509803922
+HuLN7,PCA-logistic,sCTRL,natural killer cell,2602,0.8378170637970792
+HuLN7,PCA-logistic,sCTRL,endothelial cell,65,1.0
+HuLN7,PCA-logistic,sCTRL,mast cell,88,0.8295454545454546
+HuLN7,PCA-logistic,sLMQ,B cell,649,0.8228043143297381
+HuLN7,PCA-logistic,sLMQ,T cell,462,0.8463203463203464
+HuLN7,PCA-logistic,sLMQ,natural killer cell,2223,0.854251012145749
+HuLN7,PCA-logistic,sLMQ,endothelial cell,64,0.96875
+HuLN7,PCA-logistic,sLMQ,mast cell,13,0.5384615384615384

@@ -34,3 +34,6 @@ The checksum command verifies the committed release. Reruns can change benchmark
 - [Original data or method](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE294959)
 
 The MIT license covers repository code. Original datasets, model weights and structural coordinates retain the terms of their providers. Only aggregate results are redistributed here.
+
+
+[Condition-specific recall](results/condition_recall.csv) gives cell counts and class recall for control and stimulated slices within each held-out donor. The CPU pilot loads the public [scGPT whole-human weights](https://github.com/bowang-lab/scGPT#pretrained-scgpt-model-zoo) into a standard PyTorch attention encoder. The [checkpoint manifest](data/checkpoint.json) records exact input hashes.
