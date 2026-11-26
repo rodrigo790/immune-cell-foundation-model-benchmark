@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this software and the original data."
+title: "Can frozen scGPT embeddings improve lymph node cell annotation across donors?"
+authors:
+  - family-names: Ventura Cruz
+    given-names: Rodrigo Salvador
+license: MIT
+repository-code: "https://github.com/rodrigo790/immune-cell-foundation-model-benchmark"

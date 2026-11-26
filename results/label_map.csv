@@ -1,0 +1,16 @@
+label,marker
+B cell,MS4A1
+B cell,CD79A
+B cell,CD79B
+T cell,CD3D
+T cell,CD3E
+T cell,TRAC
+natural killer cell,NKG7
+natural killer cell,KLRD1
+natural killer cell,GNLY
+endothelial cell,PECAM1
+endothelial cell,VWF
+endothelial cell,CDH5
+mast cell,TPSAB1
+mast cell,TPSB2
+mast cell,CPA3
